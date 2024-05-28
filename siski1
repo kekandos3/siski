@@ -24,15 +24,15 @@ local hit_Sound = nil
 local closest_Entity = nil
 local parry_remote = nil
 
-getgenv().aura_Enabled = false
-getgenv().hit_sound_Enabled = true
+getgenv().aura_Enabled = true
+getgenv().hit_sound_Enabled = false
 getgenv().hit_effect_Enabled = false
 getgenv().night_mode_Enabled = false
-getgenv().trail_Enabled = true
-getgenv().self_effect_Enabled = true
-getgenv().kill_effect_Enabled = true
-getgenv().shaders_effect_Enabled = true
-getgenv().ai_Enabled = false
+getgenv().trail_Enabled = false
+getgenv().self_effect_Enabled = false
+getgenv().kill_effect_Enabled = false
+getgenv().shaders_effect_Enabled = false
+getgenv().ai_Enabled = true
 getgenv().spectate_Enabled = false
 
 local Services = {
